@@ -1,0 +1,52 @@
+gamerule:
+  wtlcub: true
+  allcub: false
+  cfd: false
+
+world:
+- world
+- world_nether
+- world_the_end
+- shigen
+- shigen2
+
+message:
+  wtlcubstart: 
+  wtlcubend: 
+
+tasktimer:
+  wtltask: 300
+
+tps:
+  wtlstart: 16
+  wtlend: 17
+
+system:
+  wtlcubflag: false
+
+items:
+  iceball:
+    GriefPreventionProtectArea: true
+    WorldGuardProtectArea: true
+
+GriefPrevention:
+  AutoDeleteClaims:
+    UpperLimitArea: 3000
+    WorldForCopyData: world4
+    UnusedClaimDays: 15
+    CancelList:
+    - testplayer1
+    - someone1
+    - someone2
+  ManualDeleteClaim:
+    WorldForCopyData: world4
+
+InvCheckGate:
+
+InvCheckGateList:
+
+InvCheckGatePlus:
+
+InvCheckGatePlusList:
+
+InvCheckGatePlusItems:
