@@ -1,0 +1,11 @@
+name: WorldSystem
+main: world.system.WorldSystem
+version: 3.0.0
+author: amata1219
+
+commands:
+  ws:
+      description: WorldSystem's command.
+      usage: /<command>
+      permission: worldsystem.ws
+      permission-message: You don't have <permission>.
